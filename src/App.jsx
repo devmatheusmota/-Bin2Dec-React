@@ -30,9 +30,11 @@ function App() {
 						className='rounded border-2 text-center border-zinc-500'
 						placeholder='Insert a binary number'
 						onChange={(event) => {
+							console.log(event.nativeEvent.data);
 							if (
 								event.nativeEvent.data !== '1' &&
-								event.nativeEvent.data !== '0'
+								event.nativeEvent.data !== '0' &&
+								event.nativeEvent.data !== null
 							) {
 								alert('You must enter either 0 or 1.');
 								event.target.value = '';
