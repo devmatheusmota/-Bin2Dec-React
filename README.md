@@ -1,6 +1,6 @@
 # Conversor de Binário para Decimal
 
-[Faça o teste]()
+[Faça o teste](reactbin2decbymatheusmota.netlify.app)
 
 ## Foi utilizado:
 
