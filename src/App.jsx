@@ -37,7 +37,7 @@ function App() {
 								alert('You must enter either 0 or 1.');
 								event.target.value = '';
 							}
-							if (event.target.value.length >= 8) {
+							if (event.target.value.length > 8) {
 								alert('Your binary number has to have up to 8 digits.');
 								event.target.value = '';
 							}
