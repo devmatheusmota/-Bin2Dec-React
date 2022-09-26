@@ -1,4 +1,3 @@
-import { Input } from 'postcss';
 import { useState } from 'react';
 import './styles/main.css';
 
